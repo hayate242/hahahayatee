@@ -349,6 +349,40 @@ li {
   text-align: center;
 }
 
+.indent1 {
+	margin-left: 2em;
+  text-indent: -1em;
+}
+
+.indent1::before {
+  position: relative;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f00c';
+  color: #00ACDB;
+}
+
+.i-headphone::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f58f';
+}
+.i-snowboard::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\1f3c2';
+}
+.i-bicycle::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\1f6b4';
+}
+.i-alcohol::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\1f942';
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
